@@ -125,3 +125,13 @@ equipo.push("Pedro (Dev)", "Luisa (Dev)");
 
 console.log(equipo);
 
+//ejercicio 16
+
+let parking = ["CarroA", "Libre", "Libre", "CarroB"];
+
+parking.splice(0, 1);
+parking.splice(0, 2, "MotoA", "MotoB");
+
+console.log(parking);
+
+
