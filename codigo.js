@@ -19,3 +19,10 @@ tareas.shift();
 
 console.log(tareas);
 
+//ejercicio 3
+let historial = ["google.com", "youtube.com", "facebook.com"];
+historial.pop();
+historial.pop();
+
+console.log(historial);
+
