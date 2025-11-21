@@ -79,3 +79,14 @@ puntuaciones.fill(0);
 
 console.log(puntuaciones);
 
+//ejercicio 11
+
+let carrito = [];
+
+carrito.push("Camisa");
+carrito.push("Pantalón");
+carrito.unshift("Zapatos");
+carrito.splice(1, 1);
+
+console.log(carrito);
+
