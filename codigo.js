@@ -1,5 +1,5 @@
 
-//ejercisio 1
+//ejercicio 1
 
 let compras = ["Manzanas"];
 
@@ -10,4 +10,12 @@ compras.splice(1, 1);
 
 console.log(compras);
 
+//ejercicio 2 
+let tareas = ["Revisar emails"];
+compras.unshift("llamar cliente")
+compras.unshift("preparar reporte")
+tareas.shift();
+tareas.shift();
+
+console.log(tareas);
 
